@@ -1,6 +1,6 @@
 Text Simmilarity Analyzer
 -------------------------
-The project is about processing several documents and analyzing similarities between them based on the textual data.
+This project is about processing several documents and analyzing similarities between them based on the textual data.
 
 ### Run Instructions
 Run the diff.py script. This script should output the analysis of the documents to the terminal.
