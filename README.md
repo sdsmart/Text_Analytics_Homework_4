@@ -1,12 +1,12 @@
-About This Repository
-=====================
-This homework was assigned to me in my Text Analytics class at the University of Oklahoma.
+Text Simmilarity Analyzer
+-------------------------
+The project is about processing several documents and analyzing similarities between them based on the textual data.
 
-The project is about calculating several files and analyzing similarities between them based on the textual data.
+### Run Instructions
+Run the diff.py script. This script should output the analysis of the documents to the terminal.
 
-My Approach
------------
-I analyzed the 16 files given in the assignment using one python script that
+### Discussion / Explanation
+I analyzed the 16 files in the documents folder using one python script that
 utilizes the diff linux command.
 
 To determine the similarity percentage, I counted the total number of changes
@@ -21,13 +21,3 @@ and values being the similarity percentage.
 
 The script then outputs these key-value pairs in order of similarity percentage as
 specified by the assignment requirements.
-
-NOTES
------
-The python script is written in python 3.
-I used glob to grab the all the .py files in a hard coded directory name.
-I used subprocess to store command output within a script.
-
-Run Instructions
-----------------
-Run the diff.py script in the same directory as the python-submissions folder.

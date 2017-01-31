@@ -11,7 +11,7 @@ import subprocess
 import operator
 
 # File organization variables
-base_dir = 'python-submissions/'
+base_dir = 'documents/'
 file_names = glob.glob(base_dir + '*.py');
 # String containing the diff command output
 output = ''
